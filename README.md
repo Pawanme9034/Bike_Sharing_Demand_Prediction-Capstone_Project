@@ -3,10 +3,19 @@ Project Name - Bike Sharing Demand Prediction
 Project Type - EDA/Regression
 Contribution - Individual
 Name- Pawan Kumar Singh
+
+
 Project Summary -
-Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is important to make the rental bike available and accessible to the public at the right time as it lessens the waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern. The crucial part is the prediction of bike count required at each hour for the stable supply of rental bikes.
+
+Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is important to make the rental bike available and accessible to the public at the right time as it lessens the waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern. The crucial part is the prediction of bike count 
+required at each hour for the stable supply of rental bikes.
+
+
 GitHub Link -
+
 https://github.com/Pawanme9034/Bike_Sharing_Demand_Prediction-Capstone_Project/blob/main/Bike_Sharing_Demand_Prediction_Capstone_ProjectML.ipynb
+
+
 What all manipulations have you done and insights you found?
 So we convert the "date" column into 3 different column i.e "year","month","day"
 The "year" column in our data set is basically contain the 2 unique number contains the details of from 2017 december to 2018 november so if i consider this is a one year then we don't need the "year" column so we drop it.
