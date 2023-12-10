@@ -174,3 +174,101 @@ the gained insights regarding the positive correlations between temperature, win
 On the other hand, the insights indicating negative correlations between rainfall, snowfall, and humidity with the number of rented bikes can lead to negative growth. During periods of unfavorable weather, bike rental demand may decrease, impacting business growth negatively.
 
 In summary, the gained insights have the potential to create a positive business impact by capitalizing on favorable conditions and mitigating the negative impact of unfavorable weather conditions on bike rental demand.
+![image](https://github.com/Pawanme9034/Bike_Sharing_Demand_Prediction-Capstone_Project/assets/122411441/183291c7-af24-4361-9a4a-0892f0f1e31c)
+1. Why did you pick the specific chart?
+The distribution plots were chosen because they provide a visual representation of the distribution of values for each numerical column in the dataset. This helps in understanding the range, shape, and central tendency of the data, allowing for insights into the overall characteristics of the variables.
+
+2. What is/are the insight(s) found from the chart?
+The rented bike count, wind speed, solar radiation, rainfall, and snowfall are left-skewed data, while temperature, humidity, and visibility have normal distributions.
+
+3. Will the gained insights help creating a positive business impact?
+Are there any insights that lead to negative growth? Justify with specific reason.
+
+The gained insights have the potential to create a positive business impact by leveraging optimal weather conditions (temperature, humidity) and adjusting strategies based on solar radiation. However, the left-skewed distribution of rented bike count indicates the presence of limiting factors that may lead to negative growth. Businesses need to address these factors to mitigate their impact and stimulate demand for bike rentals.
+
+1. Why did you pick the specific chart?
+The specific chart of a box plot was chosen to visually compare the distribution of the "Rented_Bike_Count" across different categories of the categorical variables. It allows for easy comparison, identification of outliers, and understanding of the central tendency and spread within each category.
+
+2. What is/are the insight(s) found from the chart?
+The insights from the box plots suggest that:
+
+Hour: There is one outlier at x=2 and y=1300, indicating a high bike rental count at that hour.
+Seasons: Summer has the highest bike demand among the four seasons.
+Holiday: Non-holiday periods have higher bike demand compared to holidays.
+Functioning Day: "Yes" (functioning day) has more data points and outliers, indicating higher bike demand compared to "No" (non-functioning day).
+Outliers: There are outliers present in each category, suggesting variations in bike rental counts within each category.
+3. Will the gained insights help creating a positive business impact?
+Are there any insights that lead to negative growth? Justify with specific reason.
+
+Yes, the gained insights can potentially create a positive business impact by allowing businesses to understand and cater to the high demand during summer seasons, non-holiday periods, and functioning days. However, the presence of outliers suggests the need for further investigation to address any potential negative growth factors and ensure a positive customer experience.
+1. Why did you pick the specific chart?
+The specific line plot with multiple categorical variables over time was chosen to examine trends and patterns in the scaled rented bike count across different categories and understand the factors that influence bike rental demand.
+
+2. What is/are the insight(s) found from the chart?
+The insights gained from the plot indicate that all seasons exhibit similar time patterns in terms of bike rental demand. Specifically, there is a higher demand for bikes during the hours of 5 to 10 and 16 to 20.
+
+3. Will the gained insights help creating a positive business impact?
+Are there any insights that lead to negative growth? Justify with specific reason.
+
+The gained insights, such as the identified time patterns and trends, can help businesses create a positive impact by enabling them to allocate resources more efficiently and optimize their operations. By understanding the high-demand periods during weekdays and the lower demand on weekends, businesses can adjust their staffing, bike availability, and marketing strategies accordingly. However, neglecting the lower demand on weekends without appropriate strategies to stimulate demand could lead to negative growth in terms of lower utilization rates and potential revenue loss. It is crucial for businesses to consider these insights and implement appropriate measures to address the weekend demand and ensure a positive business impact overall.
+![image](https://github.com/Pawanme9034/Bike_Sharing_Demand_Prediction-Capstone_Project/assets/122411441/7f8bfa7e-775d-443d-b799-b7b693e36ff8)
+1. Why did you pick the specific chart?
+The line plot was chosen to visually analyze the relationship between the scaled numerical features and the scaled rented bike count. It allows for a clear comparison and interpretation of the impact of each feature on the bike count.
+
+2. What is/are the insight(s) found from the chart?
+when scale the data, the line plot shows patterns in the relationship between the scaled numerical features and the scaled rented bike count. From the plot, observe that:
+
+The demand for rented bikes is high when the humidity is between 0.0 and 0.1.
+The demand for rented bikes is higher when the wind speed is between 0.2 and 0.5.
+The demand for rented bikes is higher when the snowfall is between 0.0 and 0.4.
+The demand for rented bikes is higher when the temperature is between 0.5 and 0.9.
+These patterns suggest that these specific ranges of values for these features have a positive impact on the rented bike count.
+
+3. Will the gained insights help creating a positive business impact?
+Are there any insights that lead to negative growth? Justify with specific reason.
+
+Yes, the gained insights can help create a positive business impact by identifying ranges of humidity, wind speed, snowfall, and temperature that are associated with higher bike demand. However, there are no specific insights indicating negative growth in the data analyzed.
+1. Why did you pick the specific chart?
+The correlation matrix heatmap is selected because it provides a clear and concise visual representation of the correlations between variables in the dataset. It allows for quick identification of the strength and direction of the relationships, making it an effective tool for understanding the interdependencies among the variables.
+
+2. What is/are the insight(s) found from the chart?
+The "Rented_Bike_Count" shows a positive correlation with "Temperature", "Dew_point_temperature", and "Solar_Radiation". This means that as these variables increase, the demand for rented bikes tends to increase.
+
+On the other hand, there is a negative correlation between "Rented_Bike_Count" and "Humidity", "Rainfall", and "Snowfall". This implies that as humidity, rainfall, and snowfall increase, the demand for rented bikes tends to decrease.
+
+The variables "Wind_speed" and "Visibility" have relatively weaker correlations with "Rented_Bike_Count".
+
+These insights can help businesses understand the factors that affect bike rental demand and make data-driven decisions to create a positive business impact.
+![Uploading image.png…]()
+1. Why did you pick the specific chart?
+The pairplot allows us to visualize the relationships between different numerical variables in the dataset, with each plot showing the relationship between two variables. The "hue" parameter is set to "Seasons" to differentiate the data points based on the seasons.
+
+By using the pairplot, we can gain insights into the relationships and distributions of variables across different seasons. The diagonal plots represent the distributions of individual variables, while the off-diagonal plots show the scatter plots of variable pairs.
+
+2. What is/are the insight(s) found from the chart?
+From the pairplot chart, we can derive several insights:
+
+Temperature and Rented_Bike_Count: There is a positive correlation between temperature and the number of rented bikes. As temperature increases, the bike count tends to increase as well.
+
+Humidity and Rented_Bike_Count: There appears to be a negative correlation between humidity and the number of rented bikes. Higher humidity levels are associated with slightly lower bike counts.
+
+Wind_speed and Rented_Bike_Count: There seems to be a weak positive correlation between wind speed and the number of rented bikes. Higher wind speeds are generally associated with slightly higher bike counts.
+
+Visibility and Rented_Bike_Count: There is a positive correlation between visibility and the number of rented bikes. As visibility increases, the bike count tends to increase as well.
+
+Dew_point_temperature and Rented_Bike_Count: There is a positive correlation between dew point temperature and the number of rented bikes. Higher dew point temperatures are associated with higher bike counts.
+
+Solar_Radiation and Rented_Bike_Count: There is a positive correlation between solar radiation and the number of rented bikes. Higher levels of solar radiation are associated with higher bike counts.
+
+Rainfall and Rented_Bike_Count: There appears to be a weak negative correlation between rainfall and the number of rented bikes. Higher rainfall amounts are associated with slightly lower bike counts.
+
+Snowfall and Rented_Bike_Count: There seems to be a weak negative correlation between snowfall and the number of rented bikes. Higher snowfall amounts are generally associated with slightly lower bike counts.
+
+These insights suggest that weather-related factors such as temperature, humidity, wind speed, visibility, dew point temperature, solar radiation, rainfall, and snowfall have some influence on the demand for rented bikes. Businesses can consider these factors when making operational decisions, such as bike availability, pricing, and marketing strategies, to optimize bike rentals and cater to customer preferences based on weather conditions.
+
+Conclusion
+In conclusion, data visualization and exploratory data analysis play a crucial role in understanding and gaining insights from datasets. By using various charts and visualizations, we can analyze the distribution of variables, identify patterns, detect outliers, explore relationships between variables, and uncover trends or correlations.
+
+These insights can have a positive impact on businesses by providing valuable information for decision-making, strategy formulation, and optimization. For example, understanding the factors that influence bike rental demand can help businesses optimize their inventory, pricing, and marketing strategies to meet customer needs and maximize revenue. Identifying negative growth factors can also guide businesses in mitigating risks, addressing issues, and improving their offerings.
+
+Additionally, model evaluation metrics and feature importance analysis can aid in assessing the performance and interpretability of machine learning models. Metrics such as mean squared error (MSE), root mean squared error (RMSE), mean absolute error (MAE), and R-squared (R2) can provide insights into the accuracy and predictive power of the models. Feature importance analysis helps in identifying the most influential features that contribute to model predictions, allowing businesses to prioritize resources and focus on the most impactful variables.
