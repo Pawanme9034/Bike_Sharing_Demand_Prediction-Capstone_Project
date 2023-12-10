@@ -137,3 +137,40 @@ solar rediation show positive correlation with ranta count but correlation is ve
 Are there any insights that lead to negative growth? Justify with specific reason.
 
 solar radiation is highly fltuating value The gained insight of a weak positive correlation between 'Solar_Radiation' and 'Rented_Bike_Count' may have limited impact in creating a positive business impact. It is essential to consider additional factors and insights to drive significant improvements. No specific insights were identified that would directly lead to negative growth. but people like sunny days.
+![image](https://github.com/Pawanme9034/Bike_Sharing_Demand_Prediction-Capstone_Project/assets/122411441/69dbdae7-8ef0-407f-b30f-1b89feddb88d)
+
+1. Why did you pick the specific chart?
+The specific chart, an area plot, was chosen to visualize the relationship between 'Wind_speed' and the average 'Rented_Bike_Count'. It was selected because it effectively represents the continuous data, allows for comparison and assessment of magnitude, shows the distribution of the average bike count, and provides visual appeal.
+
+2. What is/are the insight(s) found from the chart?
+Distribution of Average Rented Bike Count: positive distribution approx 6
+
+Trends or Patterns: rented bike count is highr between .5 to 4
+
+3. Will the gained insights help creating a positive business impact?
+Are there any insights that lead to negative growth? Justify with specific reason.
+
+Based on the insights gained from the area plot, the relationship between wind speed and the average rented bike count indicates potential opportunities for creating a positive business impact. The higher bike demand observed within the wind speed range of 0.5 to 4 suggests that focusing on promoting bike rentals during these moderate wind conditions could lead to increased customer demand and potentially generate positive business outcomes.
+
+Regarding insights that may lead to negative growth, based on the provided information, there are no specific insights that directly suggest negative growth. However, it's important to consider that the analysis is based on the relationship between wind speed and bike count, and there may be other factors and considerations that could impact business outcomes. It's recommended to conduct a comprehensive analysis that incorporates multiple variables and factors to better assess potential negative impacts or risks to business growth.
+![image](https://github.com/Pawanme9034/Bike_Sharing_Demand_Prediction-Capstone_Project/assets/122411441/7b76e93e-901f-4c53-a00b-dceb8b7abb2f)
+1. Why did you pick the specific chart?
+The specific chart, a scatter plot with regression lines, was chosen because it allows for visualizing the relationship between numerical features and the 'Rented_Bike_Count'. It helps in understanding the correlation or pattern between these variables and facilitates comparisons among different features. The inclusion of regression lines provides an estimate of the overall trend.
+
+2. What is/are the insight(s) found from the chart?
+Positive correlations:
+
+Temperature, wind speed, visibility, and solar radiation are positively correlated with the number of rented bikes.
+
+Negative correlations:
+
+Rainfall, snowfall, and humidity are negatively correlated with the number of rented bikes.
+
+3. Will the gained insights help creating a positive business impact?
+Are there any insights that lead to negative growth? Justify with specific reason.
+
+the gained insights regarding the positive correlations between temperature, wind speed, visibility, and solar radiation with the number of rented bikes can help create a positive business impact. These insights allow businesses to identify favorable conditions for bike rentals and tailor their strategies accordingly, resulting in increased revenue and customer satisfaction.
+
+On the other hand, the insights indicating negative correlations between rainfall, snowfall, and humidity with the number of rented bikes can lead to negative growth. During periods of unfavorable weather, bike rental demand may decrease, impacting business growth negatively.
+
+In summary, the gained insights have the potential to create a positive business impact by capitalizing on favorable conditions and mitigating the negative impact of unfavorable weather conditions on bike rental demand.
